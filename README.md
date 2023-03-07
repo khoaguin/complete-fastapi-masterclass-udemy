@@ -4,7 +4,7 @@ My repor for the course [Complete FastAPI Masterclass from Scratch - Udemy](http
 
 ## Branch `main`
 
-Contain codes from section 1 to 4 if the course
+Contain code for section 1 - 4 of the course
 
 ## How to run
 
