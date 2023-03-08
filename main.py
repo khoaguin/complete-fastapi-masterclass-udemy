@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 
+from db import models
+from db.database import engine
 from router import blog_get, blog_posts
 
 app = FastAPI()
@@ -15,3 +17,6 @@ def homepage():
 @app.get("/hello")
 def homepage():
     return {"message": "Hello World!"}
+
+
+models.Base.metadata.create_all(engine)
