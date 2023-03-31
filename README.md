@@ -8,4 +8,15 @@ Contain code for Section 9 - Authenticate
 
 ## How to run
 
-`uvicorn main:app --reload`
+FastAPI Backend:
+
+```bash
+uvicorn main:app --reload
+```
+
+React Frontend:
+
+```bash
+cd react-frontend
+npm start
+```
