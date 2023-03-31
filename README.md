@@ -1,6 +1,6 @@
 # Complete FastAPI Masterclass - Udemy
 
-My repor for the course [Complete FastAPI Masterclass from Scratch - Udemy](https://www.udemy.com/course/completefastapi/)
+My repo for the course [Complete FastAPI Masterclass from Scratch - Udemy](https://www.udemy.com/course/completefastapi/)
 
 ## Branch `CORS`
 
