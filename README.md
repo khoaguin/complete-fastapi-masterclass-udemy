@@ -8,4 +8,15 @@ Contain code section 8 - CORS where we connect the React frontend app to FastAPI
 
 ## How to run
 
-`uvicorn main:app --reload`
+FastAPI Backend:
+
+```bash
+uvicorn main:app --reload
+```
+
+React Frontend:
+
+```bash
+cd react-frontend
+npm start
+```
