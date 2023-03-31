@@ -4,7 +4,7 @@ My repor for the course [Complete FastAPI Masterclass from Scratch - Udemy](http
 
 ## Branch `CORS`
 
-Contain code section 8 - CORS where we connect the React frontend app to FastAPI backend using CORS middleware
+Contain code for Section 9 - Authenticate
 
 ## How to run
 
