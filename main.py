@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, PlainTextResponse
 
+from auth import authentication
 from db import models
 from db.database import engine
 from exceptions import StoryException
@@ -13,6 +14,7 @@ app.include_router(blog_posts.router)
 app.include_router(user.router)
 app.include_router(article.router)
 app.include_router(product.router)
+app.include_router(authentication.router)
 
 
 @app.get("/")
